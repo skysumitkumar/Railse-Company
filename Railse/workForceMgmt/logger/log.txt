@@ -1,0 +1,588 @@
+2025-08-06T14:39:49.036+05:30  INFO 14364 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 14364 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T14:39:49.043+05:30  INFO 14364 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T14:39:51.078+05:30  INFO 14364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T14:39:51.117+05:30  INFO 14364 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T14:39:51.118+05:30  INFO 14364 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T14:39:51.379+05:30  INFO 14364 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T14:39:51.381+05:30  INFO 14364 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2200 ms
+2025-08-06T14:39:52.216+05:30  INFO 14364 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T14:39:52.233+05:30  INFO 14364 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.333 seconds (process running for 6.488)
+2025-08-06T14:40:05.847+05:30  INFO 14364 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T14:40:05.847+05:30  INFO 14364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T14:40:05.849+05:30  INFO 14364 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T14:40:06.111+05:30  INFO 14364 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T14:40:06.112+05:30  INFO 14364 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T14:41:22.428+05:30  INFO 14364 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T14:41:22.432+05:30  INFO 14364 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T15:33:18.359+05:30  INFO 2976 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 2976 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T15:33:18.372+05:30  INFO 2976 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T15:33:20.942+05:30  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T15:33:20.966+05:30  INFO 2976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T15:33:20.967+05:30  INFO 2976 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T15:33:21.406+05:30  INFO 2976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T15:33:21.410+05:30  INFO 2976 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2808 ms
+2025-08-06T15:33:23.330+05:30  INFO 2976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T15:33:23.357+05:30  INFO 2976 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 6.304 seconds (process running for 9.516)
+2025-08-06T15:33:33.901+05:30  INFO 2976 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T15:33:33.902+05:30  INFO 2976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T15:33:33.903+05:30  INFO 2976 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T15:33:34.149+05:30  INFO 2976 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:33:34.151+05:30  INFO 2976 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:34:22.966+05:30  INFO 2976 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:34:22.967+05:30  INFO 2976 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:35:53.987+05:30  INFO 11572 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 11572 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T15:35:53.994+05:30  INFO 11572 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T15:35:55.847+05:30  INFO 11572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T15:35:55.867+05:30  INFO 11572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T15:35:55.868+05:30  INFO 11572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T15:35:56.045+05:30  INFO 11572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T15:35:56.046+05:30  INFO 11572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1903 ms
+2025-08-06T15:35:56.885+05:30  INFO 11572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T15:35:56.902+05:30  INFO 11572 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 3.917 seconds (process running for 5.712)
+2025-08-06T15:36:15.146+05:30  INFO 11572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T15:36:15.147+05:30  INFO 11572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T15:36:15.156+05:30  INFO 11572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2025-08-06T15:36:15.477+05:30  INFO 11572 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:36:15.480+05:30  INFO 11572 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:36:24.217+05:30  INFO 11572 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:36:24.219+05:30  INFO 11572 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:36:30.931+05:30  WARN 11572 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T15:36:36.613+05:30  INFO 11572 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getDetails method is called
+2025-08-06T15:36:36.614+05:30  INFO 11572 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T15:36:36.624+05:30 ERROR 11572 --- [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class railse.workForceMgmt.dto.TaskDto (java.util.ArrayList is in module java.base of loader 'bootstrap'; railse.workForceMgmt.dto.TaskDto is in unnamed module of loader 'app')] with root cause
+
+java.lang.ClassCastException: class java.util.ArrayList cannot be cast to class railse.workForceMgmt.dto.TaskDto (java.util.ArrayList is in module java.base of loader 'bootstrap'; railse.workForceMgmt.dto.TaskDto is in unnamed module of loader 'app')
+	at railse.workForceMgmt.service.TaskService.getAllTaskDetails(TaskService.java:176) ~[main/:na]
+	at railse.workForceMgmt.controller.manager.TaskController.showAllTasks(TaskController.java:70) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:705) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.6.jar:6.0.6]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814) ~[tomcat-embed-core-10.1.5.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.6.jar:6.0.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:859) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1734) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.5.jar:10.1.5]
+	at java.base/java.lang.Thread.run(Thread.java:842) ~[na:na]
+
+2025-08-06T15:39:28.789+05:30  INFO 18296 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 18296 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T15:39:28.803+05:30  INFO 18296 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T15:39:32.279+05:30  INFO 18296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T15:39:32.312+05:30  INFO 18296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T15:39:32.313+05:30  INFO 18296 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T15:39:32.790+05:30  INFO 18296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T15:39:32.793+05:30  INFO 18296 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3838 ms
+2025-08-06T15:39:34.482+05:30  INFO 18296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T15:39:34.511+05:30  INFO 18296 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 7.228 seconds (process running for 11.646)
+2025-08-06T15:39:45.134+05:30  INFO 18296 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T15:39:45.135+05:30  INFO 18296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T15:39:45.137+05:30  INFO 18296 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T15:39:45.448+05:30  INFO 18296 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:39:45.449+05:30  INFO 18296 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:39:49.565+05:30  INFO 18296 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T15:39:49.566+05:30  INFO 18296 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T15:39:59.881+05:30  INFO 18296 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T15:39:59.882+05:30  INFO 18296 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:09:52.949+05:30  INFO 18296 --- [http-nio-8080-exec-7] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:09:52.955+05:30  INFO 18296 --- [http-nio-8080-exec-7] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:10:51.947+05:30  WARN 18296 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-08-06T17:11:15.733+05:30  INFO 20400 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 20400 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:11:15.744+05:30  INFO 20400 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:11:18.025+05:30  INFO 20400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:11:18.044+05:30  INFO 20400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:11:18.045+05:30  INFO 20400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:11:18.250+05:30  INFO 20400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:11:18.253+05:30  INFO 20400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2372 ms
+2025-08-06T17:11:19.496+05:30  INFO 20400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:11:19.521+05:30  INFO 20400 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.244 seconds (process running for 8.211)
+2025-08-06T17:11:27.805+05:30  INFO 20400 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:11:27.806+05:30  INFO 20400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:11:27.810+05:30  INFO 20400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-06T17:11:27.904+05:30  WARN 20400 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-08-06T17:11:39.181+05:30  WARN 20400 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-08-06T17:12:15.619+05:30  WARN 20400 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-08-06T17:13:16.373+05:30  WARN 20400 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'text/plain;charset=UTF-8' is not supported]
+2025-08-06T17:14:57.220+05:30  INFO 20400 --- [http-nio-8080-exec-10] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:14:57.221+05:30  INFO 20400 --- [http-nio-8080-exec-10] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:15:26.289+05:30  INFO 15812 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 15812 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:15:26.296+05:30  INFO 15812 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:15:28.301+05:30  INFO 15812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:15:28.321+05:30  INFO 15812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:15:28.321+05:30  INFO 15812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:15:28.507+05:30  INFO 15812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:15:28.508+05:30  INFO 15812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2081 ms
+2025-08-06T17:15:29.362+05:30  INFO 15812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:15:29.383+05:30  INFO 15812 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.422 seconds (process running for 6.172)
+2025-08-06T17:16:26.272+05:30  INFO 15812 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:16:26.273+05:30  INFO 15812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:16:26.274+05:30  INFO 15812 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T17:16:26.509+05:30  INFO 15812 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:16:26.510+05:30  INFO 15812 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:17:23.497+05:30  WARN 15812 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T17:17:43.083+05:30  WARN 15812 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T17:17:58.382+05:30  INFO 15812 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:17:58.383+05:30  INFO 15812 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:18:22.920+05:30  WARN 15812 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'employeeName' for method parameter type String is not present]
+2025-08-06T17:19:35.864+05:30  INFO 15812 --- [http-nio-8080-exec-9] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:19:35.864+05:30  INFO 15812 --- [http-nio-8080-exec-9] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T17:20:00.706+05:30  INFO 15812 --- [http-nio-8080-exec-10] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:20:00.706+05:30  INFO 15812 --- [http-nio-8080-exec-10] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:21:14.871+05:30  INFO 13076 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 13076 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:21:14.880+05:30  INFO 13076 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:21:17.033+05:30  INFO 13076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:21:17.056+05:30  INFO 13076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:21:17.057+05:30  INFO 13076 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:21:17.237+05:30  INFO 13076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:21:17.238+05:30  INFO 13076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2185 ms
+2025-08-06T17:21:18.103+05:30  INFO 13076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:21:18.124+05:30  INFO 13076 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.633 seconds (process running for 7.403)
+2025-08-06T17:21:41.111+05:30  INFO 13076 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:21:41.118+05:30  INFO 13076 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:21:41.126+05:30  INFO 13076 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-08-06T17:21:41.970+05:30  INFO 13076 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:21:41.973+05:30  INFO 13076 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:24:13.062+05:30  INFO 15548 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 15548 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:24:13.069+05:30  INFO 15548 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:24:15.083+05:30  INFO 15548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:24:15.103+05:30  INFO 15548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:24:15.103+05:30  INFO 15548 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:24:15.286+05:30  INFO 15548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:24:15.288+05:30  INFO 15548 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2088 ms
+2025-08-06T17:24:16.156+05:30  INFO 15548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:24:16.175+05:30  INFO 15548 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.22 seconds (process running for 5.865)
+2025-08-06T17:24:32.166+05:30  INFO 15548 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:24:32.167+05:30  INFO 15548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:24:32.168+05:30  INFO 15548 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T17:24:32.426+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:24:32.429+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:24:53.473+05:30  INFO 15548 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:24:53.474+05:30  INFO 15548 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T17:24:58.526+05:30  INFO 15548 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:24:58.527+05:30  INFO 15548 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:25:44.739+05:30  INFO 15548 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T17:25:44.740+05:30  INFO 15548 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T17:26:03.599+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T17:26:03.600+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T17:27:11.345+05:30  INFO 15548 --- [http-nio-8080-exec-9] r.w.controller.manager.TaskController    : updatePriority method is called
+2025-08-06T17:27:11.346+05:30  INFO 15548 --- [http-nio-8080-exec-9] r.workForceMgmt.service.TaskService      : updatePriority service is called
+2025-08-06T17:27:17.876+05:30  INFO 15548 --- [http-nio-8080-exec-10] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:27:17.877+05:30  INFO 15548 --- [http-nio-8080-exec-10] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:28:00.459+05:30  INFO 15548 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : getDetails method is called
+2025-08-06T17:28:00.460+05:30  INFO 15548 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : getTasksDetails service is called
+2025-08-06T17:28:27.318+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T17:28:27.319+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T17:30:03.033+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:30:03.033+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:30:42.701+05:30  INFO 15548 --- [http-nio-8080-exec-7] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T17:30:42.702+05:30  INFO 15548 --- [http-nio-8080-exec-7] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T17:30:55.913+05:30  INFO 15548 --- [http-nio-8080-exec-8] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:30:55.913+05:30  INFO 15548 --- [http-nio-8080-exec-8] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:32:20.350+05:30  INFO 15548 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T17:32:20.357+05:30  INFO 15548 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T17:32:36.332+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T17:32:36.333+05:30  INFO 15548 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T17:32:51.403+05:30  INFO 15548 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:32:51.404+05:30  INFO 15548 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:33:37.200+05:30  INFO 15548 --- [http-nio-8080-exec-4] r.w.c.employee.TaskManagementController  : addComment method is called
+2025-08-06T17:33:37.201+05:30  INFO 15548 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : addComment service is called
+2025-08-06T17:34:07.225+05:30  INFO 15548 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getDetails method is called
+2025-08-06T17:34:07.226+05:30  INFO 15548 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getTasksDetails service is called
+2025-08-06T17:34:30.405+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:34:30.406+05:30  INFO 15548 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:41:02.263+05:30  INFO 1404 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 1404 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:41:02.271+05:30  INFO 1404 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:41:04.329+05:30  INFO 1404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:41:04.350+05:30  INFO 1404 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:41:04.350+05:30  INFO 1404 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:41:04.574+05:30  INFO 1404 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:41:04.576+05:30  INFO 1404 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2190 ms
+2025-08-06T17:41:05.432+05:30  INFO 1404 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:41:05.451+05:30  INFO 1404 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.644 seconds (process running for 6.181)
+2025-08-06T17:43:19.476+05:30  INFO 1404 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:43:19.477+05:30  INFO 1404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:43:19.480+05:30  INFO 1404 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T17:43:19.809+05:30  INFO 1404 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:43:19.811+05:30  INFO 1404 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:44:04.393+05:30  INFO 1404 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:44:04.393+05:30  INFO 1404 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T17:44:45.109+05:30  INFO 1404 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:44:45.110+05:30  INFO 1404 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:45:38.283+05:30  INFO 10420 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 10420 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:45:38.290+05:30  INFO 10420 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:45:40.593+05:30  INFO 10420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:45:40.617+05:30  INFO 10420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:45:40.618+05:30  INFO 10420 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:45:40.819+05:30  INFO 10420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:45:40.821+05:30  INFO 10420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2382 ms
+2025-08-06T17:45:41.870+05:30  INFO 10420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:45:41.893+05:30  INFO 10420 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.915 seconds (process running for 7.132)
+2025-08-06T17:46:02.525+05:30  INFO 10420 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:46:02.526+05:30  INFO 10420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:46:02.530+05:30  INFO 10420 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-06T17:46:03.006+05:30  INFO 10420 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:46:03.010+05:30  INFO 10420 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:46:30.590+05:30  INFO 10420 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:46:30.591+05:30  INFO 10420 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T17:46:45.909+05:30  INFO 10420 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:46:45.909+05:30  INFO 10420 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:47:36.252+05:30  INFO 10420 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T17:47:36.253+05:30  INFO 10420 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T17:53:06.713+05:30  INFO 15588 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 15588 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:53:06.721+05:30  INFO 15588 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:53:09.241+05:30  INFO 15588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:53:09.259+05:30  INFO 15588 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:53:09.261+05:30  INFO 15588 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:53:09.514+05:30  INFO 15588 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:53:09.516+05:30  INFO 15588 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2531 ms
+2025-08-06T17:53:10.456+05:30  INFO 15588 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:53:10.484+05:30  INFO 15588 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.775 seconds (process running for 9.792)
+2025-08-06T17:54:08.951+05:30  INFO 15588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:54:08.952+05:30  INFO 15588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:54:08.954+05:30  INFO 15588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T17:54:09.365+05:30  INFO 15588 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:54:09.368+05:30  INFO 15588 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:54:42.846+05:30  INFO 15588 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:54:42.847+05:30  INFO 15588 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T17:55:18.216+05:30  INFO 15588 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T17:55:18.224+05:30  INFO 15588 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T17:56:01.628+05:30  INFO 16940 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 16940 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T17:56:01.641+05:30  INFO 16940 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T17:56:04.131+05:30  INFO 16940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T17:56:04.223+05:30  INFO 16940 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T17:56:04.225+05:30  INFO 16940 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T17:56:04.494+05:30  INFO 16940 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T17:56:04.500+05:30  INFO 16940 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2685 ms
+2025-08-06T17:56:05.735+05:30  INFO 16940 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T17:56:05.754+05:30  INFO 16940 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.449 seconds (process running for 7.295)
+2025-08-06T17:56:29.582+05:30  INFO 16940 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T17:56:29.583+05:30  INFO 16940 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T17:56:29.585+05:30  INFO 16940 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T17:56:30.011+05:30  INFO 16940 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T17:56:30.013+05:30  INFO 16940 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T17:56:53.149+05:30  WARN 16940 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2025-08-06T17:57:12.906+05:30  INFO 16940 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T17:57:12.908+05:30  INFO 16940 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T18:40:47.527+05:30  INFO 19052 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 19052 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T18:40:47.534+05:30  INFO 19052 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T18:40:50.254+05:30  INFO 19052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T18:40:50.283+05:30  INFO 19052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T18:40:50.285+05:30  INFO 19052 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T18:40:50.579+05:30  INFO 19052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T18:40:50.581+05:30  INFO 19052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2924 ms
+2025-08-06T18:40:51.594+05:30  INFO 19052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T18:40:51.615+05:30  INFO 19052 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.843 seconds (process running for 9.187)
+2025-08-06T18:42:40.251+05:30  INFO 19052 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T18:42:40.257+05:30  INFO 19052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T18:42:40.260+05:30  INFO 19052 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T18:42:40.497+05:30  INFO 19052 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T18:42:40.499+05:30  INFO 19052 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T18:42:46.062+05:30  INFO 19052 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T18:42:46.063+05:30  INFO 19052 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T18:43:26.889+05:30  INFO 2856 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 2856 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T18:43:26.895+05:30  INFO 2856 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T18:43:28.806+05:30  INFO 2856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T18:43:28.827+05:30  INFO 2856 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T18:43:28.828+05:30  INFO 2856 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T18:43:29.010+05:30  INFO 2856 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T18:43:29.014+05:30  INFO 2856 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1971 ms
+2025-08-06T18:43:29.886+05:30  INFO 2856 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T18:43:29.904+05:30  INFO 2856 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.074 seconds (process running for 5.585)
+2025-08-06T18:44:21.432+05:30  INFO 2856 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T18:44:21.433+05:30  INFO 2856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T18:44:21.435+05:30  INFO 2856 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-08-06T18:44:21.770+05:30  INFO 2856 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T18:44:21.771+05:30  INFO 2856 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T18:44:53.656+05:30  INFO 2856 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T18:44:53.657+05:30  INFO 2856 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T18:45:26.489+05:30  INFO 2856 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T18:45:26.490+05:30  INFO 2856 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T18:46:00.745+05:30  INFO 3896 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 3896 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T18:46:00.755+05:30  INFO 3896 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T18:46:04.170+05:30  INFO 3896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T18:46:04.204+05:30  INFO 3896 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T18:46:04.205+05:30  INFO 3896 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T18:46:04.588+05:30  INFO 3896 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T18:46:04.594+05:30  INFO 3896 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3649 ms
+2025-08-06T18:46:06.176+05:30  INFO 3896 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T18:46:06.246+05:30  INFO 3896 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 6.998 seconds (process running for 9.88)
+2025-08-06T18:46:21.377+05:30  INFO 3896 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T18:46:21.379+05:30  INFO 3896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T18:46:21.382+05:30  INFO 3896 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T18:46:21.681+05:30  INFO 3896 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T18:46:21.683+05:30  INFO 3896 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T18:46:44.670+05:30  INFO 3896 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T18:46:44.671+05:30  INFO 3896 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T18:47:00.979+05:30  INFO 3896 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T18:47:00.980+05:30  INFO 3896 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T18:47:45.344+05:30  INFO 3896 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T18:47:45.347+05:30  INFO 3896 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T18:48:40.782+05:30  INFO 3896 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T18:48:40.783+05:30  INFO 3896 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T18:49:16.570+05:30  WARN 3896 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2025-08-06T18:49:36.711+05:30  WARN 3896 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2025-08-06T19:56:59.856+05:30  INFO 16376 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 16376 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T19:56:59.863+05:30  INFO 16376 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T19:57:01.933+05:30  INFO 16376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T19:57:01.955+05:30  INFO 16376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T19:57:01.955+05:30  INFO 16376 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T19:57:02.157+05:30  INFO 16376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T19:57:02.162+05:30  INFO 16376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2136 ms
+2025-08-06T19:57:03.081+05:30  INFO 16376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T19:57:03.098+05:30  INFO 16376 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.471 seconds (process running for 6.362)
+2025-08-06T19:58:05.634+05:30  INFO 16376 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T19:58:05.636+05:30  INFO 16376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T19:58:05.649+05:30  INFO 16376 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2025-08-06T19:58:06.074+05:30  INFO 16376 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T19:58:06.081+05:30  INFO 16376 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T19:59:18.797+05:30  INFO 20312 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 20312 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T19:59:18.806+05:30  INFO 20312 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T19:59:22.766+05:30  INFO 20312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T19:59:22.787+05:30  INFO 20312 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T19:59:22.788+05:30  INFO 20312 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T19:59:23.037+05:30  INFO 20312 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T19:59:23.039+05:30  INFO 20312 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3894 ms
+2025-08-06T19:59:23.895+05:30  INFO 20312 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T19:59:23.914+05:30  INFO 20312 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 6.937 seconds (process running for 9.032)
+2025-08-06T20:00:46.088+05:30  INFO 20312 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:00:46.089+05:30  INFO 20312 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:00:46.092+05:30  INFO 20312 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T20:02:34.559+05:30  INFO 20312 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:02:34.561+05:30  INFO 20312 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:03:56.988+05:30  WARN 20312 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'dueDate' for method parameter type LocalDate is not present]
+2025-08-06T20:04:30.546+05:30  INFO 22396 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 22396 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:04:30.553+05:30  INFO 22396 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:04:32.617+05:30  INFO 22396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:04:32.638+05:30  INFO 22396 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:04:32.639+05:30  INFO 22396 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:04:32.844+05:30  INFO 22396 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:04:32.845+05:30  INFO 22396 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2145 ms
+2025-08-06T20:04:33.742+05:30  INFO 22396 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:04:33.762+05:30  INFO 22396 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.375 seconds (process running for 6.102)
+2025-08-06T20:07:06.014+05:30  INFO 22396 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:07:06.016+05:30  INFO 22396 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:07:06.020+05:30  INFO 22396 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-06T20:07:06.285+05:30  INFO 22396 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:07:06.290+05:30  INFO 22396 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:09:31.305+05:30  WARN 22396 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type LocalDate is not present]
+2025-08-06T20:11:05.965+05:30  WARN 22396 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type LocalDate is not present]
+2025-08-06T20:11:15.417+05:30  WARN 22396 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:12:01.845+05:30  INFO 13420 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 13420 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:12:01.852+05:30  INFO 13420 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:12:04.316+05:30  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:12:04.351+05:30  INFO 13420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:12:04.352+05:30  INFO 13420 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:12:04.535+05:30  INFO 13420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:12:04.536+05:30  INFO 13420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2315 ms
+2025-08-06T20:12:05.341+05:30  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:12:05.374+05:30  INFO 13420 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.862 seconds (process running for 6.425)
+2025-08-06T20:12:23.783+05:30  INFO 13420 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:12:23.784+05:30  INFO 13420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:12:23.786+05:30  INFO 13420 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-08-06T20:12:23.825+05:30  WARN 13420 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:12:30.313+05:30  INFO 13420 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:12:30.316+05:30  INFO 13420 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:12:37.949+05:30  INFO 13420 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:12:37.950+05:30  INFO 13420 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:14:05.043+05:30  WARN 13420 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type LocalDate is not present]
+2025-08-06T20:14:26.823+05:30  WARN 13420 --- [http-nio-8080-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'startDate' for method parameter type LocalDate is not present]
+2025-08-06T20:15:00.545+05:30  INFO 13420 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:15:00.546+05:30  INFO 13420 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:15:16.201+05:30  INFO 13420 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T20:15:16.203+05:30  INFO 13420 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T20:15:39.580+05:30  INFO 13420 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : updatePriority method is called
+2025-08-06T20:15:39.581+05:30  INFO 13420 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : updatePriority service is called
+2025-08-06T20:16:13.387+05:30  INFO 13420 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T20:16:13.387+05:30  INFO 13420 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T20:16:34.222+05:30  WARN 13420 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:16:38.523+05:30  INFO 13420 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : getDetails method is called
+2025-08-06T20:16:38.524+05:30  INFO 13420 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getTasksDetails service is called
+2025-08-06T20:18:03.931+05:30  INFO 13420 --- [http-nio-8080-exec-8] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:18:03.932+05:30  INFO 13420 --- [http-nio-8080-exec-8] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:19:27.665+05:30  INFO 13072 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 13072 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:19:27.677+05:30  INFO 13072 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:19:29.978+05:30  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:19:30.000+05:30  INFO 13072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:19:30.002+05:30  INFO 13072 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:19:30.257+05:30  INFO 13072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:19:30.259+05:30  INFO 13072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2435 ms
+2025-08-06T20:19:31.259+05:30  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:19:31.301+05:30  INFO 13072 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.841 seconds (process running for 7.048)
+2025-08-06T20:22:22.031+05:30  INFO 13072 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:22:22.032+05:30  INFO 13072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:22:22.034+05:30  INFO 13072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T20:22:22.244+05:30  INFO 13072 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:22:22.246+05:30  INFO 13072 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:22:48.828+05:30  WARN 13072 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'employeeName' for method parameter type String is not present]
+2025-08-06T20:23:20.894+05:30  INFO 13072 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:23:20.894+05:30  INFO 13072 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:25:26.307+05:30  WARN 13072 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:25:51.407+05:30  WARN 13072 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:26:15.336+05:30  WARN 13072 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-08-06T20:26:26.438+05:30  INFO 13072 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:26:26.439+05:30  INFO 13072 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:27:10.995+05:30  INFO 7440 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 7440 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:27:11.004+05:30  INFO 7440 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:27:13.510+05:30  INFO 7440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:27:13.530+05:30  INFO 7440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:27:13.532+05:30  INFO 7440 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:27:13.739+05:30  INFO 7440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:27:13.740+05:30  INFO 7440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2571 ms
+2025-08-06T20:27:14.937+05:30  INFO 7440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:27:14.967+05:30  INFO 7440 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.53 seconds (process running for 7.099)
+2025-08-06T20:28:01.237+05:30  INFO 7440 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:28:01.249+05:30  INFO 7440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:28:01.255+05:30  INFO 7440 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-08-06T20:28:01.619+05:30  INFO 7440 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:28:01.620+05:30  INFO 7440 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:31:33.337+05:30  INFO 7440 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:31:33.339+05:30  INFO 7440 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:32:00.227+05:30  INFO 7440 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:32:00.228+05:30  INFO 7440 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:33:56.253+05:30  INFO 12084 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 12084 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:33:56.260+05:30  INFO 12084 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:33:58.286+05:30  INFO 12084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:33:58.307+05:30  INFO 12084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:33:58.308+05:30  INFO 12084 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:33:58.510+05:30  INFO 12084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:33:58.511+05:30  INFO 12084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2108 ms
+2025-08-06T20:33:59.749+05:30  INFO 12084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:33:59.774+05:30  INFO 12084 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 4.962 seconds (process running for 6.813)
+2025-08-06T20:34:57.687+05:30  INFO 12084 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:34:57.689+05:30  INFO 12084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:34:57.697+05:30  INFO 12084 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2025-08-06T20:34:58.183+05:30  INFO 12084 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:34:58.185+05:30  INFO 12084 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:35:30.463+05:30  INFO 12084 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:35:30.463+05:30  INFO 12084 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:35:40.564+05:30  INFO 12084 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:35:40.565+05:30  INFO 12084 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:36:37.636+05:30  INFO 23608 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 23608 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:36:37.672+05:30  INFO 23608 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:36:41.133+05:30  INFO 23608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:36:41.158+05:30  INFO 23608 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:36:41.159+05:30  INFO 23608 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:36:41.399+05:30  INFO 23608 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:36:41.401+05:30  INFO 23608 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3515 ms
+2025-08-06T20:36:43.696+05:30  INFO 23608 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:36:43.796+05:30  INFO 23608 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 8.95 seconds (process running for 11.598)
+2025-08-06T20:36:50.852+05:30  INFO 23608 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:36:50.857+05:30  INFO 23608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:36:50.862+05:30  INFO 23608 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T20:36:51.298+05:30  INFO 23608 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:36:51.300+05:30  INFO 23608 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:37:16.662+05:30  INFO 23608 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:37:16.663+05:30  INFO 23608 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:37:51.681+05:30  INFO 23608 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:37:51.682+05:30  INFO 23608 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:38:46.163+05:30  INFO 11712 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 11712 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:38:46.176+05:30  INFO 11712 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:38:50.413+05:30  INFO 11712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:38:50.458+05:30  INFO 11712 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:38:50.459+05:30  INFO 11712 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:38:50.834+05:30  INFO 11712 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:38:50.835+05:30  INFO 11712 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4439 ms
+2025-08-06T20:38:52.748+05:30  INFO 11712 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:38:52.784+05:30  INFO 11712 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 9.145 seconds (process running for 13.46)
+2025-08-06T20:39:12.375+05:30  INFO 22032 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 22032 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:39:12.385+05:30  INFO 22032 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:39:15.126+05:30  INFO 22032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:39:15.147+05:30  INFO 22032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:39:15.149+05:30  INFO 22032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:39:15.364+05:30  INFO 22032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:39:15.365+05:30  INFO 22032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2845 ms
+2025-08-06T20:39:16.276+05:30  INFO 22032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:39:16.296+05:30  INFO 22032 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 5.509 seconds (process running for 8.219)
+2025-08-06T20:40:10.604+05:30  INFO 22032 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:40:10.605+05:30  INFO 22032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:40:10.609+05:30  INFO 22032 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-06T20:40:10.943+05:30  INFO 22032 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:40:10.948+05:30  INFO 22032 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:40:41.598+05:30  INFO 22032 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:40:41.601+05:30  INFO 22032 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:40:51.449+05:30  INFO 22032 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:40:51.449+05:30  INFO 22032 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:41:41.868+05:30  INFO 24176 --- [main] r.w.WorkForceMgmtApplication             : Starting WorkForceMgmtApplication using Java 17.0.16 with PID 24176 (E:\Study\Railse\workForceMgmt\build\classes\java\main started by Sumit kumar in E:\Study\Railse\workForceMgmt)
+2025-08-06T20:41:41.881+05:30  INFO 24176 --- [main] r.w.WorkForceMgmtApplication             : No active profile set, falling back to 1 default profile: "default"
+2025-08-06T20:41:45.626+05:30  INFO 24176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-08-06T20:41:45.652+05:30  INFO 24176 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-06T20:41:45.653+05:30  INFO 24176 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.5]
+2025-08-06T20:41:45.919+05:30  INFO 24176 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-06T20:41:45.920+05:30  INFO 24176 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3858 ms
+2025-08-06T20:41:47.047+05:30  INFO 24176 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-08-06T20:41:47.065+05:30  INFO 24176 --- [main] r.w.WorkForceMgmtApplication             : Started WorkForceMgmtApplication in 7.051 seconds (process running for 9.567)
+2025-08-06T20:42:05.947+05:30  INFO 24176 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-06T20:42:05.948+05:30  INFO 24176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-06T20:42:05.951+05:30  INFO 24176 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-08-06T20:42:06.252+05:30  INFO 24176 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:42:06.253+05:30  INFO 24176 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:42:26.370+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : reassignTask method is called
+2025-08-06T20:42:26.370+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : reassignTask service is called
+2025-08-06T20:42:38.651+05:30  INFO 24176 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:42:38.663+05:30  INFO 24176 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:44:04.738+05:30  INFO 24176 --- [http-nio-8080-exec-6] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T20:44:04.739+05:30  INFO 24176 --- [http-nio-8080-exec-6] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T20:44:24.271+05:30  INFO 24176 --- [http-nio-8080-exec-8] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T20:44:24.273+05:30  INFO 24176 --- [http-nio-8080-exec-8] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T20:45:44.778+05:30  INFO 24176 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : createTask method is called
+2025-08-06T20:45:44.783+05:30  INFO 24176 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : createTask service is called
+2025-08-06T20:46:05.472+05:30  INFO 24176 --- [http-nio-8080-exec-1] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T20:46:05.473+05:30  INFO 24176 --- [http-nio-8080-exec-1] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T20:46:24.972+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:46:24.974+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:46:55.271+05:30  INFO 24176 --- [http-nio-8080-exec-4] r.w.controller.manager.TaskController    : getTasksByRange method is called
+2025-08-06T20:46:55.273+05:30  INFO 24176 --- [http-nio-8080-exec-4] r.workForceMgmt.service.TaskService      : getTasksByDateRange service is called
+2025-08-06T20:47:59.816+05:30  WARN 24176 --- [http-nio-8080-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2025-08-06T20:48:24.526+05:30  INFO 24176 --- [http-nio-8080-exec-8] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:48:24.527+05:30  INFO 24176 --- [http-nio-8080-exec-8] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:48:55.996+05:30  INFO 24176 --- [http-nio-8080-exec-9] r.w.controller.manager.TaskController    : updatePriority method is called
+2025-08-06T20:48:55.998+05:30  INFO 24176 --- [http-nio-8080-exec-9] r.workForceMgmt.service.TaskService      : updatePriority service is called
+2025-08-06T20:49:04.367+05:30  INFO 24176 --- [http-nio-8080-exec-10] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:49:04.368+05:30  INFO 24176 --- [http-nio-8080-exec-10] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:49:45.629+05:30  INFO 24176 --- [http-nio-8080-exec-2] r.w.controller.manager.TaskController    : getByPriority method is called
+2025-08-06T20:49:45.630+05:30  INFO 24176 --- [http-nio-8080-exec-2] r.workForceMgmt.service.TaskService      : getTasksByPriority service is called
+2025-08-06T20:51:02.697+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.w.c.employee.TaskManagementController  : addComment method is called
+2025-08-06T20:51:02.701+05:30  INFO 24176 --- [http-nio-8080-exec-3] r.workForceMgmt.service.TaskService      : addComment service is called
+2025-08-06T20:51:14.153+05:30  INFO 24176 --- [http-nio-8080-exec-5] r.w.controller.manager.TaskController    : showAllTasks method is called
+2025-08-06T20:51:14.154+05:30  INFO 24176 --- [http-nio-8080-exec-5] r.workForceMgmt.service.TaskService      : getAllTaskDetails service is called
+2025-08-06T20:52:00.087+05:30  INFO 24176 --- [http-nio-8080-exec-7] r.w.controller.manager.TaskController    : getDetails method is called
+2025-08-06T20:52:00.089+05:30  INFO 24176 --- [http-nio-8080-exec-7] r.workForceMgmt.service.TaskService      : getTasksDetails service is called
